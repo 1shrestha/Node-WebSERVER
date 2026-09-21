@@ -1,0 +1,10 @@
+{
+  "name": "simple-node-webserver",
+  "version": "1.0.0",
+  "description": "Assignment 6 - Simple web server using Node.js http module with routing, custom 404 page, and CSS styling.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | My Node Server</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <nav>
+    <a href="/home">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/services">Services</a>
+  </nav>
+
+  <main>
+    <span class="badge">Route: /about</span>
+    <h1>About This Project</h1>
+    <p>This server was built for Assignment 6 to demonstrate routing with Node's core <code>http</code> module, asynchronous file reading with <code>fs.readFile</code>, and modular code organization (routing logic lives in <code>routes.js</code>, separate from <code>server.js</code>).</p>
+    <p>It responds with correct HTTP status codes: <strong>200</strong> for valid pages, <strong>404</strong> for unknown routes, and <strong>500</strong> if a page file can't be read.</p>
+  </main>
+
+  <footer>Assignment 6 &mdash; Simple Node.js Web Server</footer>
+</body>
+</html>
